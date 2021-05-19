@@ -28,8 +28,8 @@ RUN apt-get install -y --fix-missing \
 	liblzma-dev \
 	libxml2-dev \
 	libgoogle-glog-dev \
-  make libssl-dev \
-  gdb vim valgrind strace ltrace 
+  	make libssl-dev \
+  	gdb vim valgrind strace ltrace 
 
 RUN ldconfig   
 
